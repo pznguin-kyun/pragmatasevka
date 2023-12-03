@@ -1,5 +1,5 @@
 # Pragmatasevka
-Iosevka with SS08 Stylic set (Pragmata Pro)
+Iosevka + SS08 + my modification = Pragmata Pro (clone)
 
 # Install
 You can download the latest version of Pragmatasevka from the releases page here: 
