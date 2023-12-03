@@ -21,6 +21,7 @@ clone(){
 # Make Pragmatasevka
 make(){
   [ -f ./Iosevka/$patch ] && rm -rf ./Iosevka/$patch
+  [ -d ./Iosevka/dist ] && rm -rf ./Iosevka/dist
   cp $patch ./Iosevka
   cd Iosevka
   npm install
