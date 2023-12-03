@@ -26,10 +26,10 @@ make(){
   npm install
   npm run build -- contents::pragmatasevka
   cd ..
-  rm -rf ./Iosevka/dist/ttf/*semibold*.ttf
-	rm -rf ./Iosevka/dist/ttf/*black*.ttf
-  zip pragmatasevka-ttf.zip -r ./Iosevka/dist/pragmatasevka/ttf
-  zip pragmatasevka-woff2.zip -r ./Iosevka/dist/pragmatasevka/woff2
+  rm -rf ./pragmatasevka-ttf.zip
+  rm -rf ./pragmatasevka-woff2.zip
+  zip -jr pragmatasevka-ttf.zip ./Iosevka/dist/pragmatasevka/ttf
+  zip -jr pragmatasevka-woff2.zip ./Iosevka/dist/pragmatasevka/woff2
   rm -rf ./Iosevka/dist
 }
 
