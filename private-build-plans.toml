@@ -1,7 +1,7 @@
 [buildPlans.pragmatasevka]
 family = "Pragmatasevka"
 spacing = "term"
-serifs = "slab"
+serifs = "sans"
 no-cv-ss = true
 export-glyph-names = true
 hintParams = ["-a", "qqq"]
