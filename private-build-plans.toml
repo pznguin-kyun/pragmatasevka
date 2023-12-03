@@ -1,0 +1,56 @@
+[buildPlans.pragmatasevka]
+family = "Pragmatasevka"
+spacing = "term"
+serifs = "slab"
+no-cv-ss = true
+export-glyph-names = true
+hintParams = ["-a", "qqq"]
+
+    [buildPlans.pragmatasevka.variants]
+    inherits = "ss08"
+  
+    [buildPlans.pragmatasevka.widths.normal]
+    shape = 500
+    menu  = 5
+    css   = "normal"
+
+    [buildPlans.pragmatasevka.weights.regular]
+    shape = 425
+    menu = 400
+    css = 400
+
+    [buildPlans.pragmatasevka.weights.semibold]
+    shape = 600
+    menu = 600
+    css = 600
+    
+    [buildPlans.pragmatasevka.weights.bold]
+    shape = 800
+    menu = 700
+    css = 700
+
+    [buildPlans.pragmatasevka.weights.black]
+    shape = 900
+    menu = 900
+    css = 900
+
+    [buildPlans.pragmatasevka.metric-override]
+    leading = 1100
+    xHeight = 550
+
+    [buildPlans.pragmatasevka.ligations]
+    inherits="default-calt"
+    enables = [
+        "eqslasheq",
+        "kern-dotty",
+        "kern-bars",
+        "llggeq",
+        "connected-underscore", 
+        "connected-number-sign",
+        "connected-hyphen"
+    ]
+    disables = ["slash-asterisk"]
+
+    [buildPlans.pragmatasevka.slopes]
+    upright = "default.upright"
+    italic = "default.italic"
