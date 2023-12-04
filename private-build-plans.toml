@@ -20,7 +20,7 @@ hintParams = ["-a", "qqq"]
     css = 700
 
     [buildPlans.pragmatasevka.widths.normal]
-    shape = 548
+    shape = 520
     menu = 5
     css = "normal"
 
