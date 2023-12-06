@@ -20,12 +20,12 @@ hintParams = ["-a", "qqq"]
     css = 700
 
     [buildPlans.pragmatasevka.widths.normal]
-    shape = 520
+    shape = 500
     menu = 5
     css = "normal"
 
     [buildPlans.pragmatasevka.metric-override]
-    leading = 1100
+    leading = 1000
     xHeight = 550
 
     [buildPlans.pragmatasevka.ligations]
