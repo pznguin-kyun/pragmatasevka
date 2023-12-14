@@ -10,7 +10,7 @@ hintParams = ["-a", "qqq"]
   inherits = "ss08"
 
     [buildPlans.pragmatasevka.weights.regular]
-    shape = 425
+    shape = 445
     menu = 400
     css = 400
 
