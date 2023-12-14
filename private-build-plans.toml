@@ -9,27 +9,8 @@ hintParams = ["-a", "qqq"]
   [buildPlans.pragmatasevka.variants]
   inherits = "ss08"
 
-    [buildPlans.pragmatasevka.weights.regular]
-    shape = 445
-    menu = 400
-    css = 400
-
-    [buildPlans.pragmatasevka.weights.bold]
-    shape = 800
-    menu = 700
-    css = 700
-
-    [buildPlans.pragmatasevka.widths.normal]
-    shape = 500
-    menu = 5
-    css = "normal"
-
-    [buildPlans.pragmatasevka.metric-override]
-    leading = 1000
-    xHeight = 550
-
-    [buildPlans.pragmatasevka.ligations]
-    inherits="default-calt"
+  [buildPlans.pragmatasevka.ligations]
+  inherits = "dlig"
     enables = [
         "eqslasheq",
         "kern-dotty",
@@ -40,6 +21,25 @@ hintParams = ["-a", "qqq"]
         "connected-hyphen"
     ]
     disables = ["slash-asterisk"]
+
+    [buildPlans.pragmatasevka.weights.regular]
+    shape = 445
+    menu = 400
+    css = 400
+
+    [buildPlans.pragmatasevka.weights.bold]
+    shape = 850
+    menu = 700
+    css = 700
+
+    [buildPlans.pragmatasevka.widths.normal]
+    shape = 480
+    menu = 5
+    css = "normal"
+
+    [buildPlans.pragmatasevka.metric-override]
+    leading = 1000
+    xHeight = 550
 
     [buildPlans.pragmatasevka.slopes]
     upright = "default.upright"
